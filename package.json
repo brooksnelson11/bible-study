@@ -1,0 +1,22 @@
+{
+  "name": "bible-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/isolation.test.mjs",
+    "test:live": "node tests/isolation.live.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Personal Bible study site; per-user isolation proven on every push",
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@supabase/supabase-js": "^2.109.0"
+  },
+  "private": true,
+  "type": "module"
+}
