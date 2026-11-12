@@ -29,3 +29,7 @@ node tests/isolation.test.mjs
 - [ ] Phase 2: static reader + Proverbs + journal + highlights (GitHub Pages)
 - [ ] Phase 3: sign-in (email link) + sync through Supabase
 - [ ] Phase 4: AI plan outline, session prep, chat behind a per-person monthly cap
+
+## How I built it
+
+I set the rule that comes first here: nobody can ever see another person's journal, plans or highlights, and no feature ships before that's proven. The code and the 74 checks were written with Claude Code, an AI coding assistant, working from my direction.
